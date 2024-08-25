@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { FaRegSun } from "react-icons/fa";
 
@@ -174,7 +174,6 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark bg-gray-900 text-white" : ""}>
       <div className="header shadow-sm flex justify-between items-center p-8">
-        {" "}
         <h1 className="text-3xl">Where in the world?</h1>
         <button
           onClick={() => setDarkMode(!darkMode)}
